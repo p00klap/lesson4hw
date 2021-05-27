@@ -9,7 +9,7 @@ int main (){
     int b = 5;
 
     bool r;
-    r = (a + b) > 10 & (a+b) < 20;
+    r = (a + b) > 10 && (a+b) < 20;
 
     cout << r << endl;
 
@@ -19,7 +19,7 @@ int main (){
 
 //5
     int y = 2001;
-    r = ((y % 4 == 0) & (y % 100 !=0)) || (y % 400 == 0);
+    r = ((y % 4 == 0) && (y % 100 !=0)) || (y % 400 == 0);
     cout << r << endl;
 
     return 0;
